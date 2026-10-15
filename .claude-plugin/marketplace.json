@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "description": "Ask what a product does, shape ideas into user-story tickets, refine tickets, size work and plan sprints, grounded in the repository's docs and code."
+  },
+  "name": "paqad-product-discovery",
+  "owner": {
+    "email": "haider@eliyce.com",
+    "name": "Eliyce"
+  },
+  "plugins": [
+    {
+      "description": "Ask what a product does, shape ideas into user-story tickets, refine tickets, size work and plan sprints, grounded in the repository's docs and code.",
+      "name": "paqad-product-discovery",
+      "source": "./plugins/paqad-product-discovery",
+      "version": "3.2.0"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "author": {
+    "email": "haider@eliyce.com",
+    "name": "Eliyce"
+  },
+  "description": "Ask what a product does, shape ideas into user-story tickets, refine tickets, size work and plan sprints, grounded in the repository's docs and code.",
+  "displayName": "Paqad Product Discovery",
+  "documentationUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin#readme",
+  "homepage": "https://github.com/Eliyce/paqad-product-discovery-plugin#readme",
+  "keywords": [
+    "product-discovery",
+    "product-management",
+    "user-stories",
+    "tickets",
+    "jira",
+    "backlog",
+    "sprint-planning"
+  ],
+  "license": "MIT",
+  "name": "paqad-product-discovery",
+  "privacyPolicyUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin/blob/main/PRIVACY.md",
+  "repository": "https://github.com/Eliyce/paqad-product-discovery-plugin",
+  "supportUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin/issues",
+  "version": "3.2.0"
+}
