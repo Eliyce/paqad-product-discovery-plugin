@@ -1,6 +1,6 @@
 ---
 name: paqad-ground-in-project
-description: Step 2 of the paqad-discover journey. Runs when the paqad-discover journey directs it; not started directly. It reads the project's own documents in order, finds the areas related to the idea, reports what they do today, what is still unknown and anything that conflicts, and records the today block with a source for every claim. It never presents blank template text as fact: template sections are listed as unknown and the work continues.
+description: "Step 2 of the paqad-discover journey. Runs when the paqad-discover journey directs it; not started directly. It reads the project's own documents in order, finds the areas related to the idea, reports what they do today, what is still unknown and anything that conflicts, and records the today block with a source for every claim. It never presents blank template text as fact: template sections are listed as unknown and the work continues."
 ---
 
 # paqad-ground-in-project
