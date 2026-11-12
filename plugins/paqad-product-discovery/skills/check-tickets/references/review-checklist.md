@@ -1,0 +1,44 @@
+# Review checklist (judgment checks)
+
+verified: 2026-11-02
+
+The prose and structure scripts catch what a machine can catch. These are the judgment checks a
+person makes, from REQUIREMENTS section 8.5. Work through them for the whole set before reporting
+readiness.
+
+## The checks
+
+1. **Does each ticket serve its epic's goal?** Every ticket should move its epic's one-sentence
+   goal forward. A ticket that does not belong under any epic's goal is in the wrong place or is
+   not needed.
+2. **Would a developer know when it is done?** Every acceptance criterion is Given / When / Then,
+   observable from the role's view, and checkable by a tester without asking the author. Vague
+   outcomes ("works well", "is improved") are not checkable; rewrite them into something
+   observable.
+3. **Is anything in "what exists today" contradicted by the docs?** Compare each ticket's "what
+   exists today" against the today block and the project documents. A claim the docs contradict,
+   or that rests on a template section the docs could not confirm, is flagged rather than kept.
+   A line that rests on existing tickets must keep "the tickets say" and its issue keys, and must
+   not call a done ticket built. Where the repository and the tickets disagree, the repository
+   wins: flag a ticket that states the tickets' side as fact.
+4. **Is the split sensible?** The epics and tickets should break the work along natural lines, not
+   too big to finish and not split so finely that the pieces only make sense together. Recommend a
+   merge or a split where it reads wrong.
+5. **Are there similar issues already in the tracker?** Search by key phrases and show the matches
+   to the user before posting. The user decides whether a ticket is new, a duplicate, or should
+   extend an existing issue. This search only reads the tracker. A chosen existing epic is never
+   its own duplicate: compare the new tickets with that epic's current tickets instead, at most 25.
+   Under an existing epic, check that each ticket carries the goal, the why and the scope on its
+   own, and that its Epic line shows the real key and the live title.
+6. **Is each ticket a real user story?** Judge it by `user-stories.md`: a specific role
+   (not developer, platform or system), an I want that is a capability and not how it is built, a
+   So that that is a real outcome, and a target of API or UI. A UI ticket that needs an API ticket
+   depends on it. A gated capability carries a positive and a negative permission criterion with a
+   confirmed key. No criterion names another ticket ref. Lines inside each block except the last
+   end with two trailing spaces.
+
+## Reporting
+
+Report readiness as passed only when the scripts are clean (or the by-hand checks are) and these
+judgment checks hold. Where something is open, say what it is in one plain line and what would
+close it, and leave readiness open rather than calling it passed.

@@ -1,0 +1,24 @@
+{
+  "description": "Ask what a product does and shape ideas into user-story tickets, grounded in the repository's business docs and code.",
+  "extensions": {
+    "com.openai": {
+      "display_name": "paqad discovery",
+      "skills": [
+        "discover",
+        "ask",
+        "get-connected",
+        "understand-idea",
+        "ground-in-project",
+        "shape-idea",
+        "decide-together",
+        "write-tickets",
+        "check-tickets",
+        "post-tickets",
+        "start"
+      ]
+    }
+  },
+  "license": "MIT",
+  "name": "paqad",
+  "version": "1.128.1"
+}

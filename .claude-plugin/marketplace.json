@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "description": "Ask what a product does, shape ideas into user-story tickets, refine tickets, size work and plan sprints, grounded in the repository's docs and code."
+    "description": "Ask what a product does and shape ideas into user-story tickets, grounded in the repository's business docs and code."
   },
   "name": "paqad-product-discovery",
   "owner": {
@@ -9,10 +9,10 @@
   },
   "plugins": [
     {
-      "description": "Ask what a product does, shape ideas into user-story tickets, refine tickets, size work and plan sprints, grounded in the repository's docs and code.",
+      "description": "Ask what a product does and shape ideas into user-story tickets, grounded in the repository's business docs and code.",
       "name": "paqad-product-discovery",
       "source": "./plugins/paqad-product-discovery",
-      "version": "3.2.0"
+      "version": "1.128.1"
     }
   ]
 }
