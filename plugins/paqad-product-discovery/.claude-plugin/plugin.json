@@ -16,10 +16,10 @@
     "backlog"
   ],
   "license": "MIT",
-  "name": "paqad",
+  "name": "paqad-discovery",
   "privacyPolicyUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin/blob/main/PRIVACY.md",
   "repository": "https://github.com/Eliyce/paqad-product-discovery-plugin",
   "supportUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin/issues",
   "termsOfServiceUrl": "https://github.com/Eliyce/paqad-product-discovery-plugin/blob/main/TERMS.md",
-  "version": "1.128.1"
+  "version": "1.129.0"
 }
